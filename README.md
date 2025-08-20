@@ -1,63 +1,36 @@
-# My Next.js App
-
-This is a Next.js application built with TypeScript. It serves as a template for creating modern web applications using React and Next.js.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-To get started with this project, follow these steps:
+First, run the development server:
 
-1. **Clone the repository:**
-   ```bash
-   git clone <repository-url>
-   cd my-next-app
-   ```
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-3. **Run the development server:**
-   ```bash
-   npm run dev
-   ```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-4. **Open your browser:**
-   Navigate to `http://localhost:3000` to see your application in action.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Project Structure
+## Learn More
 
-- `src/pages`: Contains the application's pages.
-  - `_app.tsx`: Custom App component for initializing pages.
-  - `index.tsx`: Main entry point of the application.
-  
-- `src/components`: Contains reusable components.
-  - `Header.tsx`: Header component for the application.
+To learn more about Next.js, take a look at the following resources:
 
-- `src/lib`: Contains utility functions and shared logic.
-  - `index.ts`: Exports utility functions or constants.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- `src/styles`: Contains global and module-specific styles.
-  - `globals.css`: Global CSS styles.
-  - `Home.module.css`: CSS module styles for the Home component.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-- `src/types`: Contains TypeScript types and interfaces.
-  - `index.d.ts`: Type definitions for the application.
+## Deploy on Vercel
 
-- `public`: Static files such as images and fonts.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- `next-env.d.ts`: Automatically generated TypeScript types for Next.js features.
-
-- `next.config.js`: Custom Next.js configuration.
-
-- `package.json`: Project metadata and dependencies.
-
-- `tsconfig.json`: TypeScript compiler options.
-
-## Contributing
-
-Feel free to submit issues or pull requests to improve this project.
-
-## License
-
-This project is licensed under the MIT License.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
